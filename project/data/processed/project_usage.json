@@ -1,0 +1,16 @@
+{
+  "admin": [],
+  "csrf": [],
+  "xss": [],
+  "template": [
+    "./demo_project/views.py"
+  ],
+  "orm": [],
+  "upload": [],
+  "session": [],
+  "auth": [
+    "./demo_project/views.py"
+  ],
+  "redirect": [],
+  "cache": []
+}

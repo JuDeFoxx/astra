@@ -1,0 +1,97 @@
+[
+  {
+    "cve": "CVE-2018-18074",
+    "severity": "HIGH",
+    "package": "requests",
+    "installed": "2.19.1",
+    "fixed": "2.20.0",
+    "category": [
+      "auth",
+      "redirect"
+    ],
+    "evidence": [
+      "./demo_project/views.py"
+    ],
+    "decision": "likely_relevant",
+    "title": "python-requests: Redirect from HTTPS to HTTP does not remove Authorization header"
+  },
+  {
+    "cve": "CVE-2020-24583",
+    "severity": "HIGH",
+    "package": "django",
+    "installed": "2.2",
+    "fixed": "2.2.16, 3.0.10, 3.1.1",
+    "category": [
+      "auth"
+    ],
+    "evidence": [
+      "./demo_project/views.py"
+    ],
+    "decision": "likely_relevant",
+    "title": "django: incorrect permissions on intermediate-level directories on Python 3.7+"
+  },
+  {
+    "cve": "CVE-2021-45116",
+    "severity": "HIGH",
+    "package": "django",
+    "installed": "2.2",
+    "fixed": "2.2.26, 3.2.11, 4.0.1",
+    "category": [
+      "template",
+      "orm"
+    ],
+    "evidence": [
+      "./demo_project/views.py"
+    ],
+    "decision": "likely_relevant",
+    "title": "django: Potential information disclosure in dictsort template filter"
+  },
+  {
+    "cve": "CVE-2020-24584",
+    "severity": "MEDIUM",
+    "package": "django",
+    "installed": "2.2",
+    "fixed": "2.2.16, 3.0.10, 3.1.1",
+    "category": [
+      "upload",
+      "auth",
+      "cache"
+    ],
+    "evidence": [
+      "./demo_project/views.py"
+    ],
+    "decision": "likely_relevant",
+    "title": "django: permission escalation in intermediate-level directories of the file system cache on Python 3.7+"
+  },
+  {
+    "cve": "CVE-2022-22818",
+    "severity": "MEDIUM",
+    "package": "django",
+    "installed": "2.2",
+    "fixed": "2.2.27, 3.2.12, 4.0.2",
+    "category": [
+      "xss",
+      "template"
+    ],
+    "evidence": [
+      "./demo_project/views.py"
+    ],
+    "decision": "likely_relevant",
+    "title": "django: Possible XSS via '{% debug %}' template tag"
+  },
+  {
+    "cve": "CVE-2023-32681",
+    "severity": "MEDIUM",
+    "package": "requests",
+    "installed": "2.19.1",
+    "fixed": "2.31.0",
+    "category": [
+      "auth"
+    ],
+    "evidence": [
+      "./demo_project/views.py"
+    ],
+    "decision": "likely_relevant",
+    "title": "python-requests: Unintended leak of Proxy-Authorization header"
+  }
+]

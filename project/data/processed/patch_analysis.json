@@ -1,0 +1,212 @@
+[
+  {
+    "cve": "CVE-2018-18074",
+    "severity": "HIGH",
+    "package": "requests",
+    "categories": [
+      "auth",
+      "redirect"
+    ],
+    "decision": "likely_relevant",
+    "evidence": [
+      "./demo_project/views.py"
+    ],
+    "patch_analysis": [
+      {
+        "source_link": "https://github.com/artemv/papertrail-python-cli/commit/b6449680e5746a675bd0ae7d006a29bd2ebc8fb4",
+        "patch_url": "https://github.com/artemv/papertrail-python-cli/commit/b6449680e5746a675bd0ae7d006a29bd2ebc8fb4.patch",
+        "changed_files": [
+          "requirements.txt"
+        ],
+        "changed_hunks": [
+          "@@ -4,7 +4,7 @@ colorama==0.3.7"
+        ]
+      },
+      {
+        "source_link": "https://github.com/artemv/papertrail-python-cli/commit/ed3c879550771e5a3ce099c151c96214103a33e8",
+        "patch_url": "https://github.com/artemv/papertrail-python-cli/commit/ed3c879550771e5a3ce099c151c96214103a33e8.patch",
+        "changed_files": [
+          "requirements.txt"
+        ],
+        "changed_hunks": [
+          "@@ -4,7 +4,7 @@ colorama==0.3.7"
+        ]
+      },
+      {
+        "source_link": "https://github.com/paicha/gxgk-wechat-server/commit/1e44e1603495d0aa77953237e84502b87a6372b1",
+        "patch_url": "https://github.com/paicha/gxgk-wechat-server/commit/1e44e1603495d0aa77953237e84502b87a6372b1.patch",
+        "changed_files": [
+          "requirements.txt"
+        ],
+        "changed_hunks": [
+          "@@ -15,6 +15,6 @@ kombu==3.0.35"
+        ]
+      },
+      {
+        "source_link": "https://github.com/psf/requests/commit/2f24e02d3c86b4f437ac41cd6574c5a51e983f07",
+        "patch_url": "https://github.com/psf/requests/commit/2f24e02d3c86b4f437ac41cd6574c5a51e983f07.patch",
+        "changed_files": [
+          "requests/sessions.py",
+          "tests/test_requests.py"
+        ],
+        "changed_hunks": [
+          "@@ -115,6 +115,22 @@ def get_redirect_target(self, resp):",
+          "@@ -236,16 +252,10 @@ def rebuild_auth(self, prepared_request, response):",
+          "@@ -1573,17 +1573,7 @@ def test_nonhttp_schemes_dont_check_URLs(self):",
+          "@@ -1600,6 +1590,27 @@ def test_auth_is_retained_for_redirect_on_host(self, httpbin):"
+        ]
+      },
+      {
+        "source_link": "https://github.com/psf/requests/commit/3fbdd888a6406108edcf0633637dac8cbff757bc",
+        "patch_url": "https://github.com/psf/requests/commit/3fbdd888a6406108edcf0633637dac8cbff757bc.patch",
+        "changed_files": [
+          "requests/sessions.py",
+          "tests/test_requests.py"
+        ],
+        "changed_hunks": [
+          "@@ -242,7 +242,9 @@ def rebuild_auth(self, prepared_request, response):",
+          "@@ -1575,7 +1575,17 @@ def test_auth_is_stripped_on_redirect_off_host(self, httpbin):"
+        ]
+      },
+      {
+        "source_link": "https://github.com/psf/requests/commit/548a0e04660fca37b24186c7743fb8e5a69aaa1b",
+        "patch_url": "https://github.com/psf/requests/commit/548a0e04660fca37b24186c7743fb8e5a69aaa1b.patch",
+        "changed_files": [
+          "docs/_templates/hacks.html"
+        ],
+        "changed_hunks": [
+          "@@ -1,24 +1,5 @@",
+          "@@ -82,4 +63,4 @@",
+          "@@ -1,15 +1,5 @@"
+        ]
+      },
+      {
+        "source_link": "https://github.com/psf/requests/commit/857e9b7ac20c3accf4cc328f594aecb8b6a644a6",
+        "patch_url": "https://github.com/psf/requests/commit/857e9b7ac20c3accf4cc328f594aecb8b6a644a6.patch",
+        "changed_files": [
+          "requests/sessions.py",
+          "tests/test_requests.py"
+        ],
+        "changed_hunks": [
+          "@@ -115,6 +115,22 @@ def get_redirect_target(self, resp):",
+          "@@ -236,16 +252,10 @@ def rebuild_auth(self, prepared_request, response):",
+          "@@ -1573,17 +1573,7 @@ def test_nonhttp_schemes_dont_check_URLs(self):",
+          "@@ -1600,6 +1590,27 @@ def test_auth_is_retained_for_redirect_on_host(self, httpbin):"
+        ]
+      },
+      {
+        "source_link": "https://github.com/psf/requests/commit/857e9b7ac20c3accf4cc328f594aecb8b6a644a6#comments",
+        "patch_url": "https://github.com/psf/requests/commit/857e9b7ac20c3accf4cc328f594aecb8b6a644a6#comments.patch",
+        "changed_files": [],
+        "changed_hunks": []
+      },
+      {
+        "source_link": "https://github.com/psf/requests/commit/c45d7c49ea75133e52ab22a8e9e13173938e36ff",
+        "patch_url": "https://github.com/psf/requests/commit/c45d7c49ea75133e52ab22a8e9e13173938e36ff.patch",
+        "changed_files": [
+          "requests/sessions.py",
+          "tests/test_requests.py"
+        ],
+        "changed_hunks": [
+          "@@ -242,7 +242,9 @@ def rebuild_auth(self, prepared_request, response):",
+          "@@ -1581,7 +1581,17 @@ def test_auth_is_stripped_on_redirect_off_host(self, httpbin):",
+          "@@ -115,6 +115,22 @@ def get_redirect_target(self, resp):",
+          "@@ -236,16 +252,10 @@ def rebuild_auth(self, prepared_request, response):",
+          "@@ -1573,17 +1573,7 @@ def test_nonhttp_schemes_dont_check_URLs(self):",
+          "@@ -1600,6 +1590,27 @@ def test_auth_is_retained_for_redirect_on_host(self, httpbin):"
+        ]
+      },
+      {
+        "source_link": "https://github.com/psf/requests/commit/dd754d13de250a6af8a68a6a83a8b4419fd429c6",
+        "patch_url": "https://github.com/psf/requests/commit/dd754d13de250a6af8a68a6a83a8b4419fd429c6.patch",
+        "changed_files": [
+          "tests/test_lowlevel.py"
+        ],
+        "changed_hunks": [
+          "@@ -267,7 +267,7 @@ def response_handler(sock):"
+        ]
+      },
+      {
+        "source_link": "https://github.com/psf/requests/commit/f8b45f0271ecf084ce83c7b7f1d0e6558a0c20d4",
+        "patch_url": "https://github.com/psf/requests/commit/f8b45f0271ecf084ce83c7b7f1d0e6558a0c20d4.patch",
+        "changed_files": [
+          "requests/sessions.py",
+          "tests/test_requests.py"
+        ],
+        "changed_hunks": [
+          "@@ -239,10 +239,10 @@ def rebuild_auth(self, prepared_request, response):",
+          "@@ -1577,6 +1577,16 @@ def test_auth_is_stripped_on_redirect_off_host(self, httpbin):"
+        ]
+      }
+    ]
+  },
+  {
+    "cve": "CVE-2020-24583",
+    "severity": "HIGH",
+    "package": "django",
+    "categories": [
+      "auth"
+    ],
+    "decision": "likely_relevant",
+    "evidence": [
+      "./demo_project/views.py"
+    ],
+    "patch_analysis": []
+  },
+  {
+    "cve": "CVE-2021-45116",
+    "severity": "HIGH",
+    "package": "django",
+    "categories": [
+      "template",
+      "orm"
+    ],
+    "decision": "likely_relevant",
+    "evidence": [
+      "./demo_project/views.py"
+    ],
+    "patch_analysis": []
+  },
+  {
+    "cve": "CVE-2020-24584",
+    "severity": "MEDIUM",
+    "package": "django",
+    "categories": [
+      "upload",
+      "auth",
+      "cache"
+    ],
+    "decision": "likely_relevant",
+    "evidence": [
+      "./demo_project/views.py"
+    ],
+    "patch_analysis": []
+  },
+  {
+    "cve": "CVE-2022-22818",
+    "severity": "MEDIUM",
+    "package": "django",
+    "categories": [
+      "xss",
+      "template"
+    ],
+    "decision": "likely_relevant",
+    "evidence": [
+      "./demo_project/views.py"
+    ],
+    "patch_analysis": []
+  },
+  {
+    "cve": "CVE-2023-32681",
+    "severity": "MEDIUM",
+    "package": "requests",
+    "categories": [
+      "auth"
+    ],
+    "decision": "likely_relevant",
+    "evidence": [
+      "./demo_project/views.py"
+    ],
+    "patch_analysis": []
+  }
+]
