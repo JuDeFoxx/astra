@@ -1,0 +1,2 @@
+[RUNTIME] category=auth func=fake_authenticate file=/home/judefoxx/vuln_test/demo_project/views.py
+[RUNTIME] category=template func=fake_render file=/home/judefoxx/vuln_test/demo_project/views.py
