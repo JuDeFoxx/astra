@@ -1,0 +1,94 @@
+{
+  "CVE-2019-14234": {
+    "cve": "CVE-2019-14234",
+    "refs": [
+      "https://docs.djangoproject.com/en/dev/releases/security/",
+      "https://www.djangoproject.com/weblog/2019/aug/01/security-releases/",
+      "https://docs.djangoproject.com/en/dev/releases/security/",
+      "https://www.djangoproject.com/weblog/2019/aug/01/security-releases/"
+    ]
+  },
+  "CVE-2019-19844": {
+    "cve": "CVE-2019-19844",
+    "refs": [
+      "https://docs.djangoproject.com/en/dev/releases/security/",
+      "https://www.djangoproject.com/weblog/2019/dec/18/security-releases/",
+      "https://docs.djangoproject.com/en/dev/releases/security/",
+      "https://www.djangoproject.com/weblog/2019/dec/18/security-releases/"
+    ]
+  },
+  "CVE-2020-7471": {
+    "cve": "CVE-2020-7471",
+    "refs": [
+      "https://docs.djangoproject.com/en/3.0/releases/security/",
+      "https://github.com/django/django/commit/eb31d845323618d688ad429479c6dda973056136",
+      "https://www.djangoproject.com/weblog/2020/feb/03/security-releases/",
+      "https://docs.djangoproject.com/en/3.0/releases/security/",
+      "https://github.com/django/django/commit/eb31d845323618d688ad429479c6dda973056136",
+      "https://www.djangoproject.com/weblog/2020/feb/03/security-releases/"
+    ]
+  },
+  "CVE-2022-28346": {
+    "cve": "CVE-2022-28346",
+    "refs": [
+      "https://docs.djangoproject.com/en/4.0/releases/security/",
+      "https://www.djangoproject.com/weblog/2022/apr/11/security-releases/",
+      "https://docs.djangoproject.com/en/4.0/releases/security/",
+      "https://www.djangoproject.com/weblog/2022/apr/11/security-releases/"
+    ]
+  },
+  "CVE-2022-28347": {
+    "cve": "CVE-2022-28347",
+    "refs": [
+      "https://docs.djangoproject.com/en/4.0/releases/security/",
+      "https://www.djangoproject.com/weblog/2022/apr/11/security-releases/",
+      "https://docs.djangoproject.com/en/4.0/releases/security/",
+      "https://www.djangoproject.com/weblog/2022/apr/11/security-releases/"
+    ]
+  },
+  "CVE-2025-64459": {
+    "cve": "CVE-2025-64459",
+    "refs": [
+      "https://docs.djangoproject.com/en/dev/releases/security/",
+      "https://www.djangoproject.com/weblog/2025/nov/05/security-releases/"
+    ]
+  },
+  "CVE-2018-18074": {
+    "cve": "CVE-2018-18074",
+    "refs": [
+      "https://github.com/requests/requests/commit/c45d7c49ea75133e52ab22a8e9e13173938e36ff",
+      "https://github.com/requests/requests/issues/4716",
+      "https://github.com/requests/requests/pull/4718",
+      "https://github.com/requests/requests/commit/c45d7c49ea75133e52ab22a8e9e13173938e36ff",
+      "https://github.com/requests/requests/issues/4716",
+      "https://github.com/requests/requests/pull/4718"
+    ]
+  },
+  "CVE-2019-14232": {
+    "cve": "CVE-2019-14232",
+    "refs": [
+      "https://docs.djangoproject.com/en/dev/releases/security/",
+      "https://www.djangoproject.com/weblog/2019/aug/01/security-releases/",
+      "https://docs.djangoproject.com/en/dev/releases/security/",
+      "https://www.djangoproject.com/weblog/2019/aug/01/security-releases/"
+    ]
+  },
+  "CVE-2019-14233": {
+    "cve": "CVE-2019-14233",
+    "refs": [
+      "https://docs.djangoproject.com/en/dev/releases/security/",
+      "https://www.djangoproject.com/weblog/2019/aug/01/security-releases/",
+      "https://docs.djangoproject.com/en/dev/releases/security/",
+      "https://www.djangoproject.com/weblog/2019/aug/01/security-releases/"
+    ]
+  },
+  "CVE-2019-14235": {
+    "cve": "CVE-2019-14235",
+    "refs": [
+      "https://docs.djangoproject.com/en/dev/releases/security/",
+      "https://www.djangoproject.com/weblog/2019/aug/01/security-releases/",
+      "https://docs.djangoproject.com/en/dev/releases/security/",
+      "https://www.djangoproject.com/weblog/2019/aug/01/security-releases/"
+    ]
+  }
+}
